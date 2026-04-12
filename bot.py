@@ -1,7 +1,7 @@
 import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = "ТОВІЙ_НОВИЙ_ТОКЕН"  # вставь сюда правильний токен
+TOKEN = "8765638136:AAGyVvTQFFTHoDQgJWk6qmuqrW_8m35Jf88"  # вставь сюда правильний токен
 bot = telebot.TeleBot(TOKEN)
 
 # --- /start ---
