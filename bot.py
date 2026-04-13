@@ -41,7 +41,7 @@ def start_work(message):
         "• 📞 Номер телефону\n"
         "• 💬 (за бажанням) Telegram / інший контакт для зв’язку\n\n"
         "Після цього менеджер перевіряє дані ✅ та допомагає вам отримати доступ до роботи.\n\n"
-        "Звязок з менеджером: @bratudovika 📲"
+        "Звязок з менеджером: @Remote_manager1 📲"
     )
     bot.send_message(message.chat.id, text)
 
@@ -80,7 +80,7 @@ def access_info(message):
         "• 🕒 бажаний графік роботи\n"
         "• 📅 кількість днів на тиждень\n\n"
         "Після перевірки даних ✅ менеджер відкриває вам доступ до системи Standard та ви можете починати роботу 🚀.\n\n"
-        "Звязок з менеджером: @bratudovika 📲"
+        "Звязок з менеджером: @Remote_manager1 📲"
     )
     bot.send_message(message.chat.id, text)
 
@@ -89,7 +89,7 @@ def access_info(message):
 def contact_info(message):
     text = (
         "📲 Зв'язатися з менеджером можна за посиланням:\n\n"
-        "@bratudovika 📲"
+        "@Remote_manager1 📲"
     )
     bot.send_message(message.chat.id, text)
 
