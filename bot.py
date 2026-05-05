@@ -88,8 +88,8 @@ def access_info(message):
 @bot.message_handler(func=lambda message: message.text == "📲 Звязок")
 def contact_info(message):
     text = (
-        "📲 Зв'язатися з менеджером можна за посиланням:\n\n"
-        "@Remote_TeamLead 📲"
+        "📲 Допомога: \n\n"
+        "@Remote_manager1 📲"
     )
     bot.send_message(message.chat.id, text)
 
