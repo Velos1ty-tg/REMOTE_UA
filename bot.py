@@ -14,7 +14,7 @@ def start(message):
     btn2 = KeyboardButton("💰 Як нараховується оплата?")
     btn3 = KeyboardButton("🏦 Отримання коштів")
     btn4 = KeyboardButton("🔑 Як отримати доступ?")
-    btn5 = KeyboardButton("📲 Звязок")
+    btn5 = KeyboardButton("📲 Допомога")
     
     markup.add(btn1, btn2)
     markup.add(btn3, btn4)
